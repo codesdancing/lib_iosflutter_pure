@@ -1,0 +1,16 @@
+PODS:
+  - mixpanelFlutter (0.1.0)
+
+DEPENDENCIES:
+  - mixpanelFlutter (from `../`)
+
+EXTERNAL SOURCES:
+  mixpanelFlutter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  mixpanelFlutter: 4e2a49548864be2dcc67543bce65cc57ef6c51a8
+
+PODFILE CHECKSUM: b9d95853fe8ddcc9c4a5445d083edd05aee3a4a6
+
+COCOAPODS: 1.10.0
