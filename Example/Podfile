@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'mixpanelFlutter_Example' do
+  pod 'mixpanelFlutter', :path => '../'
+
+  target 'mixpanelFlutter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
