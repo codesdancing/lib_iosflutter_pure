@@ -15,6 +15,7 @@
     "git": "https://github.com/airfight/mixpanelFlutter.git",
     "tag": "0.1.0"
   },
+  "prepare_command": "cd ../mixpanelFlutter\ngit clone  https://github.com/codesdancing/lib_iosflutter_resource.git",
   "platforms": {
     "ios": "9.0"
   },

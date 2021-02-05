@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  mixpanelFlutter: 4e2a49548864be2dcc67543bce65cc57ef6c51a8
+  mixpanelFlutter: 5e4fef8378fc07e03d3db4b5762a2cfb3264ea4a
 
-PODFILE CHECKSUM: b9d95853fe8ddcc9c4a5445d083edd05aee3a4a6
+PODFILE CHECKSUM: f0d4c6ea3557bf3722fb855e474dd13c6ac9daa9
 
 COCOAPODS: 1.10.0
