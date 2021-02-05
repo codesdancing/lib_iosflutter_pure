@@ -20,13 +20,21 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
-
+                       
   s.homepage         = 'https://github.com/airfight/mixpanelFlutter'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'airfight' => 'gy.zhu@trip.com' }
-  s.source           = { :git => 'https://github.com/airfight/mixpanelFlutter.git', :tag => s.version.to_s }
+  s.author           = { 'airfight' => '745756619@qq.com' }
+  s.source           = { :git => 'https://github.com/codesdancing/lib_iosflutter_pure.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+#  pds_root = '../mixpanelFlutter'
+#  dir = "#{pds_root}"
+#  s.prepare_command = <<-CMD
+#                        cd #{dir}
+#                        git clone  https://github.com/codesdancing/lib_iosflutter_resource.git
+#                      CMD
+#                      s.prepare_command = File.read("../mixpanelFlutter/source.sh")
+
 
   s.ios.deployment_target = '9.0'
 

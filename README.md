@@ -22,7 +22,7 @@ pod 'mixpanelFlutter'
 
 ## Author
 
-airfight, gy.zhu@trip.com
+airfight, 745756619@qq.com
 
 ## License
 
