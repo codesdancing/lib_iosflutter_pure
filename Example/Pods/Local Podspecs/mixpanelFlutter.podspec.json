@@ -12,25 +12,13 @@
     "airfight": "745756619@qq.com"
   },
   "source": {
-    "git": "https://github.com/codesdancing/lib_iosflutter_pure.git",
-    "tag": "0.1.0"
+    "https": "https://github.com/codesdancing/lib_iosflutter_resource/archive/0.1.zip"
   },
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "mixpanelFlutter/Classes/**/*",
-  "subspecs": [
-    {
-      "name": "MixpanelFlutterDebug",
-      "vendored_frameworks": [
-        "mixpanelFlutter/Classes/framework/Debug/*"
-      ]
-    },
-    {
-      "name": "MixpanelFlutterRelease",
-      "vendored_frameworks": [
-        "mixpanelFlutter/Classes/framework/Realse/*"
-      ]
-    }
+  "vendored_frameworks": [
+    "mixpanelFlutter/Classes/Debug/*"
   ]
 }

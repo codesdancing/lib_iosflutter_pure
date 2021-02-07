@@ -176,23 +176,9 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/mixpanelFlutter/mixpanelFlutter.framework"
-  install_framework "${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/App.framework"
-  install_framework "${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/Flutter.framework"
-  install_framework "${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/flutter_boost.framework"
-  install_framework "${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/FMDB.framework"
-  install_framework "${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/path_provider.framework"
-  install_framework "${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/shared_preferences.framework"
-  install_framework "${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/sqflite.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/mixpanelFlutter/mixpanelFlutter.framework"
-  install_framework "${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/App.framework"
-  install_framework "${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/Flutter.framework"
-  install_framework "${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/flutter_boost.framework"
-  install_framework "${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/FMDB.framework"
-  install_framework "${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/path_provider.framework"
-  install_framework "${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/shared_preferences.framework"
-  install_framework "${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/sqflite.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

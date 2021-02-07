@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				462AA1FBA117DB8D29F46853 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,38 +297,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		462AA1FBA117DB8D29F46853 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mixpanelFlutter_Example/Pods-mixpanelFlutter_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/mixpanelFlutter/mixpanelFlutter.framework",
-				"${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/App.framework",
-				"${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/Flutter.framework",
-				"${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/flutter_boost.framework",
-				"${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/FMDB.framework",
-				"${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/path_provider.framework",
-				"${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/shared_preferences.framework",
-				"${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/sqflite.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mixpanelFlutter.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_boost.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/path_provider.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/shared_preferences.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sqflite.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mixpanelFlutter_Example/Pods-mixpanelFlutter_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		BA3AE9FA2DDC7E3470B07C52 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
