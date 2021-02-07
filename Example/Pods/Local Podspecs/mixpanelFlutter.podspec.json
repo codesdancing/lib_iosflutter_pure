@@ -1,6 +1,6 @@
 {
   "name": "mixpanelFlutter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of mixpanelFlutter.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/airfight/mixpanelFlutter",
@@ -12,7 +12,8 @@
     "airfight": "745756619@qq.com"
   },
   "source": {
-    "https": "https://github.com/codesdancing/lib_iosflutter_resource/archive/0.1.zip"
+    "git": "https://github.com/codesdancing/lib_iosflutter_pure.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"

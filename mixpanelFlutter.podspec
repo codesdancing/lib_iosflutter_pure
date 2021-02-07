@@ -50,7 +50,7 @@ TODO: Add long description of the pod here.
 #      'mixpanelFlutter/Classes/framework/Realse/*'
 #    ]
 
-  end
+#  end
   
   # s.resource_bundles = {
   #   'mixpanelFlutter' => ['mixpanelFlutter/Assets/*.png']
