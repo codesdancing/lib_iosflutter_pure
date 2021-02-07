@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'mixpanelFlutter'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of mixpanelFlutter.'
 
 # This description is used to generate tags and improve search results.
@@ -39,7 +39,9 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'mixpanelFlutter/Classes/**/*'
-  
+  s.vendored_frameworks = [
+        'mixpanelFlutter/Classes/Debug/*'
+   ]
 #  s.subspec 'MixpanelFlutterDebug' do |sp|
     s.vendored_frameworks = [
         'mixpanelFlutter/Classes/Debug/*'
