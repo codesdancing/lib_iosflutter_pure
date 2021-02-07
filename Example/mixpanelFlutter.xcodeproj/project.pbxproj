@@ -306,13 +306,13 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-mixpanelFlutter_Example/Pods-mixpanelFlutter_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/mixpanelFlutter/mixpanelFlutter.framework",
-				"${PODS_ROOT}/../../mixpanelFlutter/Classes/lib_iosflutter_resource/Debug/App.framework",
-				"${PODS_ROOT}/../../mixpanelFlutter/Classes/lib_iosflutter_resource/Debug/Flutter.framework",
-				"${PODS_ROOT}/../../mixpanelFlutter/Classes/lib_iosflutter_resource/Debug/flutter_boost.framework",
-				"${PODS_ROOT}/../../mixpanelFlutter/Classes/lib_iosflutter_resource/Debug/FMDB.framework",
-				"${PODS_ROOT}/../../mixpanelFlutter/Classes/lib_iosflutter_resource/Debug/path_provider.framework",
-				"${PODS_ROOT}/../../mixpanelFlutter/Classes/lib_iosflutter_resource/Debug/shared_preferences.framework",
-				"${PODS_ROOT}/../../mixpanelFlutter/Classes/lib_iosflutter_resource/Debug/sqflite.framework",
+				"${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/App.framework",
+				"${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/Flutter.framework",
+				"${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/flutter_boost.framework",
+				"${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/FMDB.framework",
+				"${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/path_provider.framework",
+				"${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/shared_preferences.framework",
+				"${PODS_ROOT}/../../mixpanelFlutter/Classes/framework/Debug/sqflite.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

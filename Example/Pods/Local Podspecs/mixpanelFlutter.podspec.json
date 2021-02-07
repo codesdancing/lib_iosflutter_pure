@@ -23,13 +23,13 @@
     {
       "name": "MixpanelFlutterDebug",
       "vendored_frameworks": [
-        "mixpanelFlutter/Classes/lib_iosflutter_resource/Debug/*"
+        "mixpanelFlutter/Classes/framework/Debug/*"
       ]
     },
     {
       "name": "MixpanelFlutterRelease",
       "vendored_frameworks": [
-        "mixpanelFlutter/Classes/lib_iosflutter_resource/Realse/*"
+        "mixpanelFlutter/Classes/framework/Realse/*"
       ]
     }
   ]
