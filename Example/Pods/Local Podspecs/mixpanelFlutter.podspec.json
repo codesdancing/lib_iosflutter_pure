@@ -9,15 +9,28 @@
     "file": "LICENSE"
   },
   "authors": {
-    "airfight": "gy.zhu@trip.com"
+    "airfight": "745756619@qq.com"
   },
   "source": {
-    "git": "https://github.com/airfight/mixpanelFlutter.git",
+    "git": "https://github.com/codesdancing/lib_iosflutter_pure.git",
     "tag": "0.1.0"
   },
-  "prepare_command": "cd ../mixpanelFlutter\ngit clone  https://github.com/codesdancing/lib_iosflutter_resource.git",
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "mixpanelFlutter/Classes/**/*"
+  "source_files": "mixpanelFlutter/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "MixpanelFlutterDebug",
+      "vendored_frameworks": [
+        "mixpanelFlutter/Classes/lib_iosflutter_resource/Debug/*"
+      ]
+    },
+    {
+      "name": "MixpanelFlutterRelease",
+      "vendored_frameworks": [
+        "mixpanelFlutter/Classes/lib_iosflutter_resource/Realse/*"
+      ]
+    }
+  ]
 }

@@ -40,6 +40,18 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'mixpanelFlutter/Classes/**/*'
   
+  s.subspec 'MixpanelFlutterDebug' do |sp|
+    sp.vendored_frameworks = [
+        'mixpanelFlutter/Classes/framework/Debug/*'
+    ]
+  end
+  s.subspec 'MixpanelFlutterRelease' do |sp|
+    sp.vendored_frameworks = [
+      'mixpanelFlutter/Classes/framework/Realse/*'
+    ]
+
+  end
+  
   # s.resource_bundles = {
   #   'mixpanelFlutter' => ['mixpanelFlutter/Assets/*.png']
   # }

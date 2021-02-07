@@ -1,5 +1,9 @@
 PODS:
-  - mixpanelFlutter (0.1.0)
+  - mixpanelFlutter (0.1.0):
+    - mixpanelFlutter/MixpanelFlutterDebug (= 0.1.0)
+    - mixpanelFlutter/MixpanelFlutterRelease (= 0.1.0)
+  - mixpanelFlutter/MixpanelFlutterDebug (0.1.0)
+  - mixpanelFlutter/MixpanelFlutterRelease (0.1.0)
 
 DEPENDENCIES:
   - mixpanelFlutter (from `../`)
@@ -9,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  mixpanelFlutter: 5e4fef8378fc07e03d3db4b5762a2cfb3264ea4a
+  mixpanelFlutter: e0668a82673106d2ddae09ad21ca19d78436ef47
 
 PODFILE CHECKSUM: f0d4c6ea3557bf3722fb855e474dd13c6ac9daa9
 
