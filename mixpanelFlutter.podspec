@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'mixpanelFlutter'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of mixpanelFlutter.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'airfight' => '745756619@qq.com' }
-  s.source           = { :https => 'https://github.com/codesdancing/lib_iosflutter_resource/archive/0.1.zip' }
+  s.source           = { :git => 'https://github.com/codesdancing/lib_iosflutter_pure.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 #  pds_root = '../mixpanelFlutter'
 #  dir = "#{pds_root}"
@@ -39,20 +39,18 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'mixpanelFlutter/Classes/**/*'
-  s.vendored_frameworks = [
-          'mixpanelFlutter/Classes/Debug/*'
-      ]
+  
 #  s.subspec 'MixpanelFlutterDebug' do |sp|
-#    sp.vendored_frameworks = [
-#        'mixpanelFlutter/Classes/framework/Debug/*'
-#    ]
+    s.vendored_frameworks = [
+        'mixpanelFlutter/Classes/Debug/*'
+    ]
 #  end
 #  s.subspec 'MixpanelFlutterRelease' do |sp|
 #    sp.vendored_frameworks = [
 #      'mixpanelFlutter/Classes/framework/Realse/*'
 #    ]
 
-#  end
+  end
   
   # s.resource_bundles = {
   #   'mixpanelFlutter' => ['mixpanelFlutter/Assets/*.png']
