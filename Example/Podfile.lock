@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  mixpanelFlutter: 77bcc43e8cb8bd57f3bf1c921e8d6be506af3d0f
+  mixpanelFlutter: ab43d1158845335cd1caa2cf244ba87ea5b36546
 
 PODFILE CHECKSUM: f0d4c6ea3557bf3722fb855e474dd13c6ac9daa9
 
