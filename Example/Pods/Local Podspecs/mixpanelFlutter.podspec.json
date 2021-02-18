@@ -1,6 +1,6 @@
 {
   "name": "mixpanelFlutter",
-  "version": "0.1.3",
+  "version": "0.1.36",
   "summary": "A short description of mixpanelFlutter.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/airfight/mixpanelFlutter",
@@ -13,13 +13,17 @@
   },
   "source": {
     "git": "https://github.com/codesdancing/lib_iosflutter_pure.git",
-    "tag": "0.1.3"
+    "tag": "0.1.36"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "mixpanelFlutter/Classes/**/*.{h,m,mm}",
-  "vendored_frameworks": [
-    "mixpanelFlutter/Classes/Debug/*.framework"
+  "subspecs": [
+    {
+      "name": "Flutter",
+      "source_files": "mixpanelFlutter/Classes/*/*",
+      "public_header_files": "mixpanelFlutter/Classes/*/*.h",
+      "vendored_frameworks": "mixpanelFlutter/Classes/Debug/*.framework"
+    }
   ]
 }
