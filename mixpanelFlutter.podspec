@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'mixpanelFlutter'
-  s.version          = '0.1.3'
+  s.version          = '0.1.31'
   s.summary          = 'A short description of mixpanelFlutter.'
 
 # This description is used to generate tags and improve search results.
@@ -38,14 +38,14 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'mixpanelFlutter/Classes/**/*'
+  s.source_files = 'mixpanelFlutter/Classes/**/*.{h,m,mm}'
   s.vendored_frameworks = [
-        'mixpanelFlutter/Classes/Debug/*'
+        'mixpanelFlutter/Classes/Debug/*.framework'
    ]
 #  s.subspec 'MixpanelFlutterDebug' do |sp|
-    s.vendored_frameworks = [
-        'mixpanelFlutter/Classes/Debug/*'
-    ]
+#    s.vendored_frameworks = [
+#        'mixpanelFlutter/Classes/Debug/*'
+#    ]
 #  end
 #  s.subspec 'MixpanelFlutterRelease' do |sp|
 #    sp.vendored_frameworks = [
@@ -62,3 +62,4 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
+
